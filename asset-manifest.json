@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Vadirajaru/static/css/main.81481d59.chunk.css",
-    "main.js": "/Vadirajaru/static/js/main.dbe3e988.chunk.js",
-    "main.js.map": "/Vadirajaru/static/js/main.dbe3e988.chunk.js.map",
+    "main.js": "/Vadirajaru/static/js/main.89e39cba.chunk.js",
+    "main.js.map": "/Vadirajaru/static/js/main.89e39cba.chunk.js.map",
     "runtime-main.js": "/Vadirajaru/static/js/runtime-main.da923544.js",
     "runtime-main.js.map": "/Vadirajaru/static/js/runtime-main.da923544.js.map",
     "static/js/2.25205247.chunk.js": "/Vadirajaru/static/js/2.25205247.chunk.js",
     "static/js/2.25205247.chunk.js.map": "/Vadirajaru/static/js/2.25205247.chunk.js.map",
     "index.html": "/Vadirajaru/index.html",
-    "precache-manifest.7c1ca0c66c76efe34608f408ff6dd958.js": "/Vadirajaru/precache-manifest.7c1ca0c66c76efe34608f408ff6dd958.js",
+    "precache-manifest.e54bcec39033b7468e9c7ab08fc81959.js": "/Vadirajaru/precache-manifest.e54bcec39033b7468e9c7ab08fc81959.js",
     "service-worker.js": "/Vadirajaru/service-worker.js",
     "static/css/main.81481d59.chunk.css.map": "/Vadirajaru/static/css/main.81481d59.chunk.css.map",
     "static/js/2.25205247.chunk.js.LICENSE.txt": "/Vadirajaru/static/js/2.25205247.chunk.js.LICENSE.txt",
@@ -29,6 +29,6 @@
     "static/js/runtime-main.da923544.js",
     "static/js/2.25205247.chunk.js",
     "static/css/main.81481d59.chunk.css",
-    "static/js/main.dbe3e988.chunk.js"
+    "static/js/main.89e39cba.chunk.js"
   ]
 }
