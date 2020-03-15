@@ -42,14 +42,18 @@ class BurgerMenu extends Component {
             filter: this.state.menuOpen ? 'blur(2px)':null,
             transition: 'filter 0.5s ease',
           },
+          menuItemLink:{
+          color:this.state.hover? 'gray':'#fafafa',
+          textDecoration:'none',
+        },
         }
-      const menu = ['Keertane','Chintane','About']
+      const menu = ['Chintane','Keertane','About']
       const menuItems = menu.map((val,index)=>{
         return (
           <MenuItem 
             key={index} 
             delay={`${index * 0.1}s`}
-            onClick={()=>{this.handleLinkClick();}}>{val}</MenuItem>)
+            onClick={()=>{this.handleLinkClick();}}><a style={styles.menuItemLink} href={`#${val.toLowerCase()}`}>{val}</a></MenuItem>)
       });
       
       return(
