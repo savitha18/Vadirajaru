@@ -32,7 +32,7 @@ class App extends Component {
     return (
       <div className="App">
         <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
-        <ModalVideo autoplay channel='youtube' isOpen={this.state.isOpen} videoId={this.isMobileDevice() ? '8r7iE8qiTT4' : 'XDk49IMeDeE'} onClose={() => this.setState({isOpen: false})} />
+        <ModalVideo channel='youtube' isOpen={this.state.isOpen} videoId={this.isMobileDevice() ? '8r7iE8qiTT4' : 'XDk49IMeDeE'} onClose={() => this.setState({isOpen: false})} />
         <div className="App-header">
           <div className="header-container">
           <div className="left-content-header">
