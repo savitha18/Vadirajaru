@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0728818822e59eb8cb5482d4939f03fd",
+    "revision": "68d8bc344cb7cce15a8097a0d968b418",
     "url": "/Vadirajaru/index.html"
   },
   {
-    "revision": "b6664b387d9836451015",
+    "revision": "4afe6b9cb51542e531da",
     "url": "/Vadirajaru/static/css/main.81481d59.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Vadirajaru/static/js/2.25205247.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b6664b387d9836451015",
-    "url": "/Vadirajaru/static/js/main.b10f3fba.chunk.js"
+    "revision": "4afe6b9cb51542e531da",
+    "url": "/Vadirajaru/static/js/main.610c704f.chunk.js"
   },
   {
     "revision": "82419cb97dcc6fbe1eca",
