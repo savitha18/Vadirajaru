@@ -219,13 +219,18 @@ class HomePage extends Component{
                             <th>Details</th>
                         </tr>
                         <tr>
+                            <td><img src={playImg} onClick={() => this.setState({ chintaneAudioSource: files.taluvike})} /></td>
+                            <td>Artha Anusandhaana - Taaluvikegintha anya tapavu illa</td>
+                            <td>Contemplation on the meaning of Vaadirajakruta Viraata Roopa Dhyaana song by Smt.Parimala Raghavendra</td>
+                        </tr>
+                        <tr>
                             <td><img src={playImg} onClick={() => this.setState({ chintaneAudioSource: files.viraata1})} /></td>
-                            <td>Viraata Roopa Dhyaana - Part 1</td>
+                            <td>Artha Anusandaana - Viraata Roopa Dhyaana - Part 1</td>
                             <td>Contemplation on the meaning of Vaadirajakruta Viraata Roopa Dhyaana song by Smt.Parimala Raghavendra</td>
                         </tr>
                         <tr>
                             <td><img src={playImg} onClick={() => this.setState({ chintaneAudioSource: files.viraata2})} /></td>
-                            <td>Viraata Roopa Dhyaana - Part 2</td>
+                            <td>Artha Anusandaana - Viraata Roopa Dhyaana - Part 2</td>
                             <td>Contemplation on the meaning of Vaadirajakruta Viraata Roopa Dhyaana song by Smt.Parimala Raghavendra</td>
                         </tr>
                         <tr>
