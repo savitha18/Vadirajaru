@@ -17,7 +17,6 @@ class App extends Component {
       selectedItem: 'archane'
     }
     this.openModal = this.openModal.bind(this);
-    setTimeout(() => { this.setState({ isOpen: true })}, 6000);
   }
 
   openModal () {

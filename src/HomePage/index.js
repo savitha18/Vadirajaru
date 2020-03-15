@@ -356,6 +356,21 @@ class HomePage extends Component{
                             <td>Raaje Beediyolagininda</td>
                             <td>Sung by Smt. Kritika Raghavendra and Kum. Ambhrini Raghavendra</td>
                         </tr>
+                        <tr>
+                            <td><img src={playImg} onClick={() => this.setState({ keertaneAudioSource: files.narayana})} /></td>
+                            <td>Naraayana Enniro</td>
+                            <td>Sung by Smt. Padmini Srinidhi</td>
+                        </tr>
+                        <tr>
+                            <td><img src={playImg} onClick={() => this.setState({ keertaneAudioSource: files.vadirajaguru})} /></td>
+                            <td>Vadiraja Guru Nee Dayamaadade</td>
+                            <td>Sung by Smt. Padmini Srinidhi</td>
+                        </tr>
+                        <tr>
+                            <td><img src={playImg} onClick={() => this.setState({ keertaneAudioSource: files.avakulavu})} /></td>
+                            <td>Aaava kulavo ranga</td>
+                            <td>Sung by Kum. Sahashri Badrinath</td>
+                        </tr>
                     </thead>
                 </table>
             </div>

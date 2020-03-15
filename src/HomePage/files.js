@@ -24,5 +24,8 @@ const files = {
     'ls20':'1CaUc2OwUiqtfw1ZuxW6kFsKM41PYhxwG',
     'raja':'1Lp0SFsOMf2iuWxPX-Gg8aekJgo_0UUel',
     'kudure':'1HMTWcefzI-08RRmfZx04rh7W8xhu1GLI',
+    'narayana': '1ATnKgrMtUkM4n3jVif3VjnNE572nRTc0',
+    'vadirajaguru':'19Y4hsgnY-JUogdITZljxnRM1FVfXykXe',
+    'avakulavu':'1aF-L1ar3PcxsZKKzR8CYJZDG8C5vywq5',
 };
 export default files;
