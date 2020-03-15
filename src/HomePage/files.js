@@ -28,5 +28,7 @@ const files = {
     'vadirajaguru':'19Y4hsgnY-JUogdITZljxnRM1FVfXykXe',
     'avakulavu':'1aF-L1ar3PcxsZKKzR8CYJZDG8C5vywq5',
     'begabaro': '15PYY016quPROd8z_YVNb1a8T8lBUAIDz',
+    'hejje':'1w8vGc8SjGEVAeYd67tmkhv6rV49ybrLc',
+    'govinda':'1o2JMXJLokOnSVEpR8_Mhr47HeBpUTScH',
 };
 export default files;

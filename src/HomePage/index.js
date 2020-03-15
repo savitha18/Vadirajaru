@@ -376,6 +376,16 @@ class HomePage extends Component{
                             <td>Bega Baro Bega Baro</td>
                             <td>Sung by Smt. Kritika Raghavendra and Kum. Ambhrini Raghavendra</td>
                         </tr>
+                        <tr>
+                            <td><img src={playImg} onClick={() => this.setState({ keertaneAudioSource: files.hejje})} /></td>
+                            <td>Hejje Nodona Baare</td>
+                            <td>Sung by Smt. Kritika Raghavendra and Kum. Ambhrini Raghavendra</td>
+                        </tr>
+                        <tr>
+                            <td><img src={playImg} onClick={() => this.setState({ keertaneAudioSource: files.govinda})} /></td>
+                            <td>Govinda Gopala</td>
+                            <td>Sung by Smt. Kritika Raghavendra and Kum. Ambhrini Raghavendra</td>
+                        </tr>
                     </thead>
                 </table>
             </div>
