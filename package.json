@@ -1,7 +1,7 @@
 {
   "name": "vadirajaru",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "homepage": "https://github.com/savitha18/Vadirajaru.git",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
