@@ -221,7 +221,7 @@ class HomePage extends Component{
                         <tr>
                             <td><img src={playImg} onClick={() => this.setState({ chintaneAudioSource: files.taluvike})} /></td>
                             <td>Artha Anusandhaana - Taaluvikegintha anya tapavu illa</td>
-                            <td>Contemplation on the meaning of Vaadirajakruta Viraata Roopa Dhyaana song by Smt.Parimala Raghavendra</td>
+                            <td>Contemplation on the meaning of this song by Smt.Parimala Raghavendra</td>
                         </tr>
                         <tr>
                             <td><img src={playImg} onClick={() => this.setState({ chintaneAudioSource: files.viraata1})} /></td>
