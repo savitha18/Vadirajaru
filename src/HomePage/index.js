@@ -46,8 +46,7 @@ class HomePage extends Component{
     }
 
     render(){
-        let { count, shlokaText, chintaneAudioSource, keertaneAudioSource } = this.state;
-        console.log('chintane: ', chintaneAudioSource);
+        let { count, shlokaText, chintaneAudioSource, keertaneAudioSource, serverCount } = this.state;
         return(
             <div className="container">
                 <div className="desktop-container" id="archane">
@@ -69,7 +68,7 @@ class HomePage extends Component{
                    <div className="box">
                        <div className="box-content">
                            <div className="action">Click</div>
-                            <div className="direction">Click the mic &nbsp; &nbsp;<Speech onComplete={() => this.setState({ count: ++count, serverCount: count } )} /> &nbsp;&nbsp; button.
+                            <div className="direction">Click the mic &nbsp; &nbsp;<Speech onComplete={() => this.setState({ count: 0, serverCount: ++serverCount }, () =>{ this.setState({ count: 24 })} )} /> &nbsp;&nbsp; button.
                             <marquee behavior="scroll" direction="left">Note: Do speak close to your mic so the voice recognition software can pick up your words.This speech recognition software is currently NOT supported on iOS Safari.</marquee>
                              </div>
                             
@@ -117,7 +116,9 @@ class HomePage extends Component{
                    <div className="box">
                        <div className="box-content">
                            <div className="action">Click</div>
-                            <div className="direction">Click the mic &nbsp; &nbsp;<Speech onComplete={() => this.setState({ count: ++count, serverCount: count } )} /> &nbsp;&nbsp; button.</div>
+                            <div className="direction">Click the mic &nbsp; &nbsp;<Speech onComplete={() => this.setState({ count: 0, serverCount: ++serverCount }, () => {
+                                this.setState({ count: 24 });
+                            } )} /> &nbsp;&nbsp; button.</div>
                             <marquee behavior="scroll" direction="left">Note: Do speak close to your mic so the voice recognition software can pick up your words. This speech recognition software is currently NOT supported on iOS Safari.</marquee>
                        </div>
                    </div>
@@ -168,7 +169,7 @@ class HomePage extends Component{
                    <div className="box">
                        <div className="box-content">
                            <div className="action">Click</div>
-                            <div className="direction"><Speech onComplete={() => this.setState({ count: ++count, serverCount: count } )} /></div>
+                            <div className="direction"><Speech onComplete={() => this.setState({ count: 0, serverCount: ++serverCount }, () =>{ this.setState({ count: 24 })} )} /></div>
                             <marquee behavior="scroll" direction="left">Note: Do speak close to your mic so the voice recognition software can pick up your words.This speech recognition software is currently NOT supported on iOS Safari.</marquee>
                        </div>
                    </div>
@@ -349,42 +350,57 @@ class HomePage extends Component{
                         <tr>
                             <td><img onClick={() => this.setState({ keertaneAudioSource: files.kudure})} src={playImg} /></td>
                             <td>Kudure Bandide</td>
-                            <td>Sung by Smt. Kritika Raghavendra and Kum. Ambhrini Raghavendra</td>
+                            <td>Smt. Kritika Raghavendra and Kum. Ambhrini Raghavendra</td>
                         </tr>
                         <tr>
                             <td><img src={playImg} onClick={() => this.setState({ keertaneAudioSource: files.raja})} /></td>
                             <td>Raaje Beediyolagininda</td>
-                            <td>Sung by Smt. Kritika Raghavendra and Kum. Ambhrini Raghavendra</td>
+                            <td>Smt. Kritika Raghavendra and Kum. Ambhrini Raghavendra</td>
                         </tr>
                         <tr>
                             <td><img src={playImg} onClick={() => this.setState({ keertaneAudioSource: files.narayana})} /></td>
                             <td>Naraayana Enniro</td>
-                            <td>Sung by Smt. Padmini Srinidhi</td>
+                            <td>Smt. Padmini Srinidhi</td>
                         </tr>
                         <tr>
                             <td><img src={playImg} onClick={() => this.setState({ keertaneAudioSource: files.vadirajaguru})} /></td>
                             <td>Vadiraja Guru Nee Dayamaadade</td>
-                            <td>Sung by Smt. Padmini Srinidhi</td>
+                            <td>Smt. Padmini Srinidhi</td>
                         </tr>
                         <tr>
                             <td><img src={playImg} onClick={() => this.setState({ keertaneAudioSource: files.avakulavu})} /></td>
                             <td>Aaava kulavo ranga</td>
-                            <td>Sung by Kum. Sahashri Badrinath</td>
+                            <td>Kum. Sahashri Badrinath</td>
                         </tr>
                         <tr>
                             <td><img src={playImg} onClick={() => this.setState({ keertaneAudioSource: files.begabaro})} /></td>
                             <td>Bega Baro Bega Baro</td>
-                            <td>Sung by Smt. Kritika Raghavendra and Kum. Ambhrini Raghavendra</td>
+                            <td>Smt. Kritika Raghavendra and Kum. Ambhrini Raghavendra</td>
                         </tr>
                         <tr>
                             <td><img src={playImg} onClick={() => this.setState({ keertaneAudioSource: files.hejje})} /></td>
                             <td>Hejje Nodona Baare</td>
-                            <td>Sung by Smt. Kritika Raghavendra and Kum. Ambhrini Raghavendra</td>
+                            <td>Smt. Kritika Raghavendra and Kum. Ambhrini Raghavendra</td>
                         </tr>
                         <tr>
                             <td><img src={playImg} onClick={() => this.setState({ keertaneAudioSource: files.govinda})} /></td>
                             <td>Govinda Gopala</td>
-                            <td>Sung by Smt. Kritika Raghavendra and Kum. Ambhrini Raghavendra</td>
+                            <td>Smt. Kritika Raghavendra and Kum. Ambhrini Raghavendra</td>
+                        </tr>
+                        <tr>
+                            <td><img src={playImg} onClick={() => this.setState({ keertaneAudioSource: files.urutane})} /></td>
+                            <td>Urutane Haadu</td>
+                            <td>Smt. Jayashree Adya</td>
+                        </tr>
+                        <tr>
+                            <td><img src={playImg} onClick={() => this.setState({ keertaneAudioSource: files.narayananene})} /></td>
+                            <td>Naraayanana Nene Manave</td>
+                            <td>Smt. Jayashree Adya</td>
+                        </tr>
+                        <tr>
+                            <td><img src={playImg} onClick={() => this.setState({ keertaneAudioSource: files.enisalennalave})} /></td>
+                            <td>Enisalennalave</td>
+                            <td>Smt. Kritika Raghavendra</td>
                         </tr>
                     </thead>
                 </table>

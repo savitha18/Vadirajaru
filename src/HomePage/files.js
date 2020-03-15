@@ -30,5 +30,8 @@ const files = {
     'begabaro': '15PYY016quPROd8z_YVNb1a8T8lBUAIDz',
     'hejje':'1w8vGc8SjGEVAeYd67tmkhv6rV49ybrLc',
     'govinda':'1o2JMXJLokOnSVEpR8_Mhr47HeBpUTScH',
+    'narayananene':'1vKlfpA7CJMpiZCDwZughYfp84Q6hr1WU',
+    'urutane':'1CkBEF_kAMcFtbnTtav3xT07z32TlB2EH',
+    'enisalennalave':'16pqLbaaVmomtI_1GtdbqQvZKhD5K8J6Y',
 };
 export default files;

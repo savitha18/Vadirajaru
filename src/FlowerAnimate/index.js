@@ -3,9 +3,9 @@ import React, { Component } from 'react';
 import purpleFlowerImg from '../assets/purple.svg';
 
 class FlowerAnimate extends Component{
+    
     render(){
         const {count} = this.props;
-        console.log('count: ', count);
         return(
             <div>
             {(count >= 1) && <div className="flower-animate-container flower-animate-container1">
