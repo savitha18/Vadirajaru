@@ -70,7 +70,7 @@ class HomePage extends Component{
                        <div className="box-content">
                            <div className="action">Click</div>
                             <div className="direction">Click the mic &nbsp; &nbsp;<Speech onComplete={() => this.setState({ count: ++count, serverCount: count } )} /> &nbsp;&nbsp; button.
-                            <marquee behavior="scroll" direction="left">Note: Do speak close to your mic so the voice recognition software can pick up your words.</marquee>
+                            <marquee behavior="scroll" direction="left">Note: Do speak close to your mic so the voice recognition software can pick up your words.This speech recognition software is currently NOT supported on iOS Safari.</marquee>
                              </div>
                             
                        </div>
@@ -118,7 +118,7 @@ class HomePage extends Component{
                        <div className="box-content">
                            <div className="action">Click</div>
                             <div className="direction">Click the mic &nbsp; &nbsp;<Speech onComplete={() => this.setState({ count: ++count, serverCount: count } )} /> &nbsp;&nbsp; button.</div>
-                            <marquee behavior="scroll" direction="left">Note: Do speak close to your mic so the voice recognition software can pick up your words.</marquee>
+                            <marquee behavior="scroll" direction="left">Note: Do speak close to your mic so the voice recognition software can pick up your words. This speech recognition software is currently NOT supported on iOS Safari.</marquee>
                        </div>
                    </div>
                    <div className="box">
@@ -169,7 +169,7 @@ class HomePage extends Component{
                        <div className="box-content">
                            <div className="action">Click</div>
                             <div className="direction"><Speech onComplete={() => this.setState({ count: ++count, serverCount: count } )} /></div>
-                            <marquee behavior="scroll" direction="left">Note: Do speak close to your mic so the voice recognition software can pick up your words.</marquee>
+                            <marquee behavior="scroll" direction="left">Note: Do speak close to your mic so the voice recognition software can pick up your words.This speech recognition software is currently NOT supported on iOS Safari.</marquee>
                        </div>
                    </div>
                    <div className="box">

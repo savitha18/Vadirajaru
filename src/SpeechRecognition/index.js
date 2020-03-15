@@ -2,12 +2,15 @@ import './index.scss';
 import React, { Component } from 'react';
 import plainMicImg from '../assets/plainmic.svg';
 import micImg from '../assets/mic.svg';
-const SpeechRecognition = window.webkitSpeechRecognition || window.SpeechRecognition;
-const recognition = new SpeechRecognition();
 
-recognition.continous = true
-recognition.interimResults = true
-recognition.lang = 'hi-IN'
+const SpeechRecognition = window ? (window.webkitSpeechRecognition || window.SpeechRecognition) : null;
+const recognition = SpeechRecognition ? new SpeechRecognition() : null;
+if(recognition){
+  recognition.continous = true
+  recognition.interimResults = true
+  recognition.lang = 'hi-IN'
+}
+
 
 class Speech extends Component {
 
