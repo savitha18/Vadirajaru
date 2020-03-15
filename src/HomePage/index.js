@@ -371,6 +371,11 @@ class HomePage extends Component{
                             <td>Aaava kulavo ranga</td>
                             <td>Sung by Kum. Sahashri Badrinath</td>
                         </tr>
+                        <tr>
+                            <td><img src={playImg} onClick={() => this.setState({ keertaneAudioSource: files.begabaro})} /></td>
+                            <td>Bega Baro Bega Baro</td>
+                            <td>Sung by Smt. Kritika Raghavendra and Kum. Ambhrini Raghavendra</td>
+                        </tr>
                     </thead>
                 </table>
             </div>

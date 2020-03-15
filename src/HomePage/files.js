@@ -27,5 +27,6 @@ const files = {
     'narayana': '1ATnKgrMtUkM4n3jVif3VjnNE572nRTc0',
     'vadirajaguru':'19Y4hsgnY-JUogdITZljxnRM1FVfXykXe',
     'avakulavu':'1aF-L1ar3PcxsZKKzR8CYJZDG8C5vywq5',
+    'begabaro': '15PYY016quPROd8z_YVNb1a8T8lBUAIDz',
 };
 export default files;
