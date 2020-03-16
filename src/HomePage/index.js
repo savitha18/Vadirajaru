@@ -402,6 +402,32 @@ class HomePage extends Component{
                             <td>Enisalennalave</td>
                             <td>Smt. Kritika Raghavendra</td>
                         </tr>
+                        <tr>
+                            <td><img src={playImg} onClick={() => this.setState({ keertaneAudioSource: files.dhavala})} /></td>
+                            <td>Dhavala Gangeya</td>
+                            <td>Smt. Kritika Raghavendra and Kum. Ambhrini Raghavendra</td>
+                        </tr>
+                        <tr>
+                            <td><img src={playImg} onClick={() => this.setState({ keertaneAudioSource: files.taluvikehaadu})} /></td>
+                            <td>Taaluvikegintha</td>
+                            <td>Smt. Sivaranjini Satyanath</td>
+                        </tr>
+                        <tr>
+                            <td><img src={playImg} onClick={() => this.setState({ keertaneAudioSource: files.begabaro1})} /></td>
+                            <td>Baro Bega Baro</td>
+                            <td>Smt. Sivaranjini Satyanath</td>
+                        </tr>
+                        <tr>
+                            <td><img src={playImg} onClick={() => this.setState({ keertaneAudioSource: files.kondaadalave})} /></td>
+                            <td>Kondaadalave Ninnaya Keerti</td>
+                            <td>Smt. Saraswati Gururajan</td>
+                        </tr>
+                        <tr>
+                            <td><img src={playImg} onClick={() => this.setState({ keertaneAudioSource: files.jayamadhwa})} /></td>
+                            <td>Jaya Madhwa Vallabha</td>
+                            <td>Smt. Jayashree Adya</td>
+                        </tr>
+
                     </thead>
                 </table>
             </div>

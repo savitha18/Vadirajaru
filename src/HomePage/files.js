@@ -33,5 +33,11 @@ const files = {
     'narayananene':'1vKlfpA7CJMpiZCDwZughYfp84Q6hr1WU',
     'urutane':'1CkBEF_kAMcFtbnTtav3xT07z32TlB2EH',
     'enisalennalave':'16pqLbaaVmomtI_1GtdbqQvZKhD5K8J6Y',
+    'dhavala':'1t09e6PEZ0aTGiHxrJwarD3Sy6Q5B8tAq',
+    'begabaro1':'1fCa7TNJJRe3IgdTMcmfCp43IExNpmHhW',
+    'taluvikehaadu':'1VjOctIBQTLvbDuaCACo9oetfWSA5YLIa',
+    'kondaadalave':'10Y2GEjiywuJ307i-wz2Lw6OcZg6l1ebw',
+    'jayamadhwa':'1wAkW1hjZGY667MPRgFzlWQnJT44aLFpe',
+
 };
 export default files;
